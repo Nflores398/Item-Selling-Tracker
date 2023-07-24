@@ -155,6 +155,7 @@ namespace Selling_Tracker
 
         private async void AddItem_Button_Click(object sender, EventArgs e)
         {
+            //test
             App app = this.ParentForm as App;
             DateTime dateTime = DateTime.Now;
             string format = "yyyy-MM-dd HH:mm:ss";
